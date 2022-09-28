@@ -51,9 +51,11 @@ export default makeStyles((theme) => ({
     },
     alanLogo: {
         height: '27vmin',
-        borderRadius: '15%',
+        borderRadius: '50%',
         padding: '0 5%',
         margin: '3% 0',
-
+        color: 'black',
+        backgroundColor: '#ffffff3c !important',
+        boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'
     }
 }));

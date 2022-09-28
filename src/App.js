@@ -6,6 +6,7 @@ import wordsToNumbers from 'words-to-numbers';
 import useStyles from './style.js'
 import { Grid, Typography } from '@mui/material';
 import { Container } from '@mui/system';
+import img from './how-to-build-a-news-app-removebg-preview.png'
 // import { Typography } from '@mui/material';
 import './index.css'
 const alanKey = 'a876750e4f3c95fc8c557356c9d9508d2e956eca572e1d8b807a3e2338fdd0dc/stage';
@@ -59,9 +60,9 @@ const App = () => {
             <Grid container >
                 {!isOpen ?
                     <Grid container item xs={12} alignItems='center' justifyContent="center" >
-                        <img src={'https://a.storyblok.com/f/47007/1201x628/6142f06af0/how-to-build-a-news-app.png'} alt="alan logo" className={classes.alanLogo} />
+                        <img src={img} alt="alan logo" className={classes.alanLogo} />
                     </Grid>
-                    : <Container><Typography fontFamily='sans-serif' variant='h2' align='center'> Todays News </Typography><br /></Container>
+                    : <Container><Typography fontFamily='sans-serif' style={{color:'white'}} variant='h2' align='center'> Todays News </Typography><br /></Container>
                 }
 
 

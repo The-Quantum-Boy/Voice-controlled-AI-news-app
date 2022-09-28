@@ -4,7 +4,11 @@
 
 body{
     margin:0;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url("./news-1172463_1920.jpg");
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    background-size: cover;
 
 }
 

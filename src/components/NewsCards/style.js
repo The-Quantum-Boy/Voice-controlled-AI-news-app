@@ -15,7 +15,10 @@ const styles = makeStyles({
         height:'45vh',
         padding:'10%',
         borderRadius:10,
-        color:'white'
+        color:'black',
+        backgroundColor:'#ffffff7d !important',
+        boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'
+
     },
     infoCard:{
         display:'flex',
